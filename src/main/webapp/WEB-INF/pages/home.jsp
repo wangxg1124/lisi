@@ -107,11 +107,21 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Français </a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <img src="/img/fr.png" style="height: 20px; width: 30px">  Français
+          </a>
           <ul class="dropdown-menu">
-            <li><a href="#">中文</a></li>
+            <li>
+                <a href="#">
+                    <img src="/img/cn.png" style="height: 20px; width: 30px">  中文
+                </a>
+            </li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">English</a></li>
+            <li>
+                <a href="#">
+                    <img src="/img/gb.png" style="height: 20px; width: 30px">  English
+                </a>
+            </li>
           </ul>
         </li>
       </ul>
