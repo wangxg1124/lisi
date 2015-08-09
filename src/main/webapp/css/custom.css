@@ -4,6 +4,7 @@
 
     display: flex;
     align-items: center;
+}
 
 /*No hover effect on small devices*/
 @media (min-width: 979px) {
