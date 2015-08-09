@@ -30,7 +30,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
         <img alt="Brand" src="/img/logo.jpg" style="height: 30px;">
       </a>
     </div>
