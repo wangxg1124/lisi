@@ -29,13 +29,13 @@
 		<img src="/img/logo.jpg" alt="Logo" class="img-rounded center-block">
 
 		<div class="row" style="padding-top: 100px">
-			<div class="col-xs-4">
+			<div class="col-md-2 col-md-offset-2 col-xs-4">
 				<a type="button" class="btn btn-default center-block" href="home.html">Français</a>
 			</div>
-			<div class="col-xs-4">
+			<div class="col-md-2 col-md-offset-1 col-xs-4">
 				<a type="button" class="btn btn-default center-block" href="home.html">中文</a>
 			</div>
-			<div class="col-xs-4">
+			<div class="col-md-2 col-md-offset-1 col-xs-4">
 				<a type="button" class="btn btn-default center-block" href="home.html">English</a>
 			</div>
 		</div>
