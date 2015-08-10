@@ -20,6 +20,18 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="/js/jquery-1.11.3.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('a[rel=popover]').popover({
+            html: true,
+            trigger: 'click',
+            placement: "top",
+            content: function () {
+                return '<img src="'+$(this).data('img') + '" style="width:200px" />';
+            }
+        });
+    })
+</script>
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid" style="max-width: 1080px">
 
@@ -173,6 +185,24 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+<div class="container-fluid">
+    <div class="row">
+        <ul class="list-inline" style="text-align: center">
+            <li><a href="https://www.facebook.com/lisi.louis.liu"  target="_blank"><img src="/img/fb.png" style="height: 40px" alt="facebook" class="img-circle img-responsive" ></a></li>
+            <li><a href="https://instagram.com/lls_liulisi/" target="_blank"><img src="/img/ins.png" style="height: 40px" alt="instagram" class="img-circle img-responsive" ></a></li>
+            <li><a href="#" rel="popover" data-img="/img/wechat-qr.png"><img src="/img/wechat.png" style="height: 40px" alt="wechat" class="img-circle img-responsive" ></a></li>
+            <li><a href="https://www.weibo.com" ><img src="/img/weibo.png" style="height: 40px" alt="weibo" class="img-circle img-responsive" ></a></li>
+            <li><a href="mailto: lls.liulisi@gmail.com" ><img src="/img/mail.png  " style="height: 40px" alt="mail" class="img-circle img-responsive" ></a></li>
+        </ul>
+        <ul class="list-inline" style="text-align: center">
+            <li><p>136 Rue Saint-Honoré 75001 Paris</p></li>
+            <li><p>Mobile: 06 64 94 18 98</p></li>
+            <p>©2015 Lisi LIU</p>
+        </ul>
     </div>
 </div>
 </body>
