@@ -39,7 +39,7 @@
     <div class="collapse navbar-collapse" id="homeNavbar">
       <ul class="nav navbar-nav">
         <%--Marque--%>
-        <li class="dropdown active">
+        <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Marque</a>
           <ul class="dropdown-menu">
             <li><a href="#">Lisi LIU</a></li>
