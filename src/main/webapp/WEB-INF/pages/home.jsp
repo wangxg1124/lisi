@@ -30,6 +30,10 @@
                 return '<img src="'+$(this).data('img') + '" style="width:200px" />';
             }
         });
+        $('.carousel').carousel({
+          interval: 5000,
+          wrap: false
+        });
     })
 </script>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -150,6 +154,7 @@
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
       </ol>
 
       <!-- Wrapper for slides -->
@@ -172,6 +177,11 @@
         <div class="item">
           <img src="/img/photo/4.jpg" class="center" style="height: 700px;">
           <div class="carousel-caption">
+          </div>
+        </div>
+        <div class="item">
+          <div align="center">
+            <iframe width="100%" height="700px" src="//www.youtube.com/embed/LjhCEhWiKXk?controls=1" frameborder="0" allowfullscreen=""></iframe>
           </div>
         </div>
       </div>
