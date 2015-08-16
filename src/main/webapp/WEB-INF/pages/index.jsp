@@ -30,13 +30,13 @@
 
 		<div class="row" style="padding-top: 100px">
 			<div class="col-md-2 col-md-offset-2 col-xs-4">
-				<a type="button" class="btn btn-default center-block" href="home.html">Français</a>
+				<a type="button" class="btn btn-default center-block" href="home">Français</a>
 			</div>
 			<div class="col-md-2 col-md-offset-1 col-xs-4">
-				<a type="button" class="btn btn-default center-block" href="home.html">中文</a>
+				<a type="button" class="btn btn-default center-block" href="home">中文</a>
 			</div>
 			<div class="col-md-2 col-md-offset-1 col-xs-4">
-				<a type="button" class="btn btn-default center-block" href="home.html">English</a>
+				<a type="button" class="btn btn-default center-block" href="home">English</a>
 			</div>
 		</div>
 	</div>
