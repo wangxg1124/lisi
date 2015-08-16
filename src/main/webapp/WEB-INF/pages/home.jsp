@@ -58,9 +58,9 @@
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Marque</a>
           <ul class="dropdown-menu">
-            <li><a href="#">Lisi LIU</a></li>
+            <li><a href="/marque/lisi">Lisi LIU</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">L'équipe</a></li>
+            <li><a href="/marque/equipe">L'équipe</a></li>
           </ul>
         </li>
         <%--Couture--%>
