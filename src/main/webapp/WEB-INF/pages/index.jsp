@@ -26,7 +26,7 @@
 </script>
 <div class="container-fluid vertical-center">
 	<div class="container">
-		<img src="/img/logo.jpg" alt="Logo" class="img-rounded center-block">
+		<img src="/img/logo.jpg" alt="Logo" class="img-rounded center-block" style="height: 400px">
 
 		<div class="row" style="padding-top: 100px">
 			<div class="col-md-2 col-md-offset-2 col-xs-4">
