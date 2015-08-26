@@ -1,4 +1,4 @@
-package com.lisi;
+package com.lisi.fo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class IndexController {
 	@RequestMapping(method = RequestMethod.GET)
 	public String index(ModelMap model) {
-		return "index";
+		return "fo/index";
 	}
 }
